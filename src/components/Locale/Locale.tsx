@@ -14,7 +14,7 @@ const LocaleProvider: React.FC<LocaleProviderProps> = ({
   messages,
 }) => {
   // For now locale can be set here
-  //const locale = Locale.EN;
+  // const locale = Locale.EN;
   const locale = Locale.ES;
 
   return (
