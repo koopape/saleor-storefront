@@ -15,7 +15,7 @@ describe("<CheckoutAddress />", () => {
     const setBillingAddress = jest.fn();
     const setBillingAsShippingAddress = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutAddress
           {...LOGGED_IN_USER_PROPS}
           shippingAddressRequired
@@ -39,7 +39,7 @@ describe("<CheckoutAddress />", () => {
     const setBillingAddress = jest.fn();
     const setBillingAsShippingAddress = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutAddress
           {...ANONYMOUS_USER_PROPS}
           shippingAddressRequired

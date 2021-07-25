@@ -51,7 +51,7 @@ const DEFAULT_PROPS: IAddToCartSection = {
 storiesOf("@components/organisms/AddToCartSection", module).add(
   "default",
   () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <AddToCartSection {...DEFAULT_PROPS} />
     </IntlProvider>
   )

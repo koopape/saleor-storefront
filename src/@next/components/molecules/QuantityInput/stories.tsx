@@ -16,6 +16,6 @@ const DEFAULT_PROPS: IQuantityInput = {
 
 storiesOf("@components/molecules/QuantityInput", module)
   .addParameters({ component: QuantityInput })
-  .addDecorator(story => <IntlProvider locale="en">story()</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">story()</IntlProvider>)
   .add("default", () => <QuantityInput {...DEFAULT_PROPS} />)
   .add("disabled", () => <QuantityInput {...DEFAULT_PROPS} disabled />);

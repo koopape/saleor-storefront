@@ -22,7 +22,7 @@ const submitUnchangedDiscount = action(
 storiesOf("@components/organisms/CheckoutPayment", module)
   .addParameters({ component: CheckoutPayment })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CheckoutPayment
         {...PROPS}
         addPromoCode={addPromoCode}

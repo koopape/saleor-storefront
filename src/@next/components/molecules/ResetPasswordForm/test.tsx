@@ -21,7 +21,7 @@ describe("<ResetPasswordForm />", () => {
   };
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ResetPasswordForm {...DEFAULT_PROPS} />
       </IntlProvider>
     );

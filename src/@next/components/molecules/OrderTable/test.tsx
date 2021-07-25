@@ -95,7 +95,7 @@ const getLinkCalledProps = (path: string, query?: UknownObject) => [
 describe("<OrderTable />", () => {
   it("exists", () => {
     const wrapper = shallow(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <OrderTable isGuest orders={[]} />
       </IntlProvider>
     );
@@ -105,7 +105,7 @@ describe("<OrderTable />", () => {
 
   it("should render passed orders array", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <OrderTable isGuest orders={ORDERS} />
       </IntlProvider>
     );
@@ -123,7 +123,7 @@ describe("<OrderTable />", () => {
   it("should navigate to particular order when clicking on order row", () => {
     const pushSpy = jest.fn().mockImplementation(() => new Promise(r => r()));
     let wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <RouterContext.Provider value={{ push: pushSpy } as any}>
           <OrderTable isGuest orders={ORDERS} />
         </RouterContext.Provider>
@@ -138,7 +138,7 @@ describe("<OrderTable />", () => {
     );
 
     wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <RouterContext.Provider value={{ push: pushSpy } as any}>
           <OrderTable isGuest={false} orders={ORDERS} />
         </RouterContext.Provider>
@@ -158,7 +158,7 @@ describe("<OrderTable />", () => {
   it("should navigate to product page when clicking on product thumbnail", () => {
     const pushSpy = jest.fn().mockImplementation(() => new Promise(r => r()));
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <RouterContext.Provider value={{ push: pushSpy } as any}>
           <OrderTable isGuest orders={ORDERS} />
         </RouterContext.Provider>

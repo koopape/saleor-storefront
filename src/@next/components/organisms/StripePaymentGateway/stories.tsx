@@ -15,7 +15,7 @@ const onError = action("onError");
 
 storiesOf("@components/organisms/StripePaymentGateway", module)
   .addParameters({ component: StripePaymentGateway })
-  .addDecorator(story => <IntlProvider locale="en">{story()}</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">{story()}</IntlProvider>)
   .add("default", () => (
     <StripePaymentGateway
       config={config}

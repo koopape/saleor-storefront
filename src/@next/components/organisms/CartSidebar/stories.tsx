@@ -28,7 +28,7 @@ const proceedToCheckout = action("proceed to checkout");
 
 storiesOf("@components/organisms/CartSidebar", module)
   .addParameters({ component: CartSidebar })
-  .addDecorator(story => <IntlProvider locale="en">{story()}</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">{story()}</IntlProvider>)
   .add("default", () => (
     <CartSidebar
       items={ITEMS}

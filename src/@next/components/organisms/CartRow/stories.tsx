@@ -15,12 +15,12 @@ const STORY_PROPS = {
 storiesOf("@components/organisms/CartRow", module)
   .addParameters({ component: CartRow })
   .add("responsive", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CartRow {...STORY_PROPS} />
     </IntlProvider>
   ))
   .add("condense", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CartRow {...STORY_PROPS} type="condense" />
     </IntlProvider>
   ));

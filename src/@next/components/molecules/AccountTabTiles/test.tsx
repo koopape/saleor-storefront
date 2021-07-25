@@ -19,7 +19,7 @@ jest.mock("@saleor/sdk", () => ({
 describe("<PasswordTile />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <PasswordTile />
       </IntlProvider>
     );
@@ -29,7 +29,7 @@ describe("<PasswordTile />", () => {
 
   it("should show basic view on load", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <PasswordTile />
       </IntlProvider>
     );
@@ -39,7 +39,7 @@ describe("<PasswordTile />", () => {
 
   it("should change view to password change view when clicked on edit icon", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <PasswordTile />
       </IntlProvider>
     );
@@ -53,7 +53,7 @@ describe("<PasswordTile />", () => {
 describe("<AccountTile />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountTile />
       </IntlProvider>
     );
@@ -63,7 +63,7 @@ describe("<AccountTile />", () => {
 
   it("should show basic view on load", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountTile />
       </IntlProvider>
     );
@@ -73,7 +73,7 @@ describe("<AccountTile />", () => {
 
   it("should change view to password change view when clicked on edit icon", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountTile />
       </IntlProvider>
     );

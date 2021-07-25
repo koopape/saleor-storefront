@@ -20,7 +20,7 @@ const DEFAULT_PROPS = { ...{ links, active } };
 describe("<AccountMenuMobile />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountMenuMobile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -30,7 +30,7 @@ describe("<AccountMenuMobile />", () => {
 
   it("should show only active tab if menu has not been clicked", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountMenuMobile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -43,7 +43,7 @@ describe("<AccountMenuMobile />", () => {
 
   it("should expand on click - all tabs name should be visible", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountMenuMobile {...DEFAULT_PROPS} />
       </IntlProvider>
     );

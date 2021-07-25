@@ -46,7 +46,7 @@ describe("<ProductListHeader />", () => {
 
   it("should not display Clear Filters button if no active filters present", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductListHeader {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -56,7 +56,7 @@ describe("<ProductListHeader />", () => {
 
   it("should display Clear Filters button if active filters present are present", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductListHeader {...DEFAULT_PROPS} activeFilters={3} />
       </IntlProvider>
     );
@@ -66,7 +66,7 @@ describe("<ProductListHeader />", () => {
 
   it("should display number of active filters if any are present", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductListHeader {...DEFAULT_PROPS} activeFilters={3} />
       </IntlProvider>
     );
@@ -76,7 +76,7 @@ describe("<ProductListHeader />", () => {
 
   it("should call method for clearing filters when clicking on Clear Filters button", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductListHeader {...DEFAULT_PROPS} activeFilters={3} />
       </IntlProvider>
     );
@@ -93,7 +93,7 @@ describe("<ProductListHeader />", () => {
 
   it("should call method for clearing filters when clicking on Clear Filters button", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductListHeader {...DEFAULT_PROPS} activeFilters={3} />
       </IntlProvider>
     );

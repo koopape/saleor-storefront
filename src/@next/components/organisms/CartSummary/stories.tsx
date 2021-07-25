@@ -8,7 +8,7 @@ import { DEFAULT_PROPS } from "./fixtures";
 storiesOf("@components/organisms/CartSummary", module)
   .addParameters({ component: CartSummary })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CartSummary {...DEFAULT_PROPS} />
     </IntlProvider>
   ));

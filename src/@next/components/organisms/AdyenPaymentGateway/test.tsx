@@ -41,7 +41,7 @@ describe("<AdyenPaymentGateway />", () => {
     const submitPaymentSuccess = jest.fn();
     const onError = jest.fn();
     const wrapper = shallow(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AdyenPaymentGateway
           {...PROPS}
           processPayment={processPayment}

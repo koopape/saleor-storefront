@@ -38,7 +38,7 @@ const DEFAULT_PROPS = {
 describe("<AddressTile />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -48,7 +48,7 @@ describe("<AddressTile />", () => {
 
   it("should run onRemove function for clicking on trash button", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -60,7 +60,7 @@ describe("<AddressTile />", () => {
 
   it("should run onEdit function for clicking on edit button", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -72,7 +72,7 @@ describe("<AddressTile />", () => {
 
   it("should run setDefault method for clicking on Set default billing address", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -85,7 +85,7 @@ describe("<AddressTile />", () => {
 
   it("should run setDefault method for clicking on Set default shipping address", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -98,7 +98,7 @@ describe("<AddressTile />", () => {
 
   it("should present Default address if address is default shipping and billing", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -112,7 +112,7 @@ describe("<AddressTile />", () => {
     CUSTOM_PROPS.address.isDefaultShippingAddress = true;
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...CUSTOM_PROPS} />
       </IntlProvider>
     );
@@ -126,7 +126,7 @@ describe("<AddressTile />", () => {
     CUSTOM_PROPS.address.isDefaultShippingAddress = false;
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressTile {...CUSTOM_PROPS} />
       </IntlProvider>
     );

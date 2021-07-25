@@ -9,7 +9,7 @@ import { DiscountForm } from ".";
 describe("<DiscountForm />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <DiscountForm />
       </IntlProvider>
     );

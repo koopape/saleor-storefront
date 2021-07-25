@@ -21,7 +21,7 @@ const DEFAULT_PROPS = {
 storiesOf("@components/molecules/ResetPasswordForm", module)
   .addParameters({ component: ResetPasswordForm })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <ResetPasswordForm {...DEFAULT_PROPS} />
     </IntlProvider>
   ));

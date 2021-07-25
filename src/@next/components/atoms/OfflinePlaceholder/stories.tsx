@@ -6,5 +6,5 @@ import { OfflinePlaceholder } from ".";
 
 storiesOf("@components/atoms/OfflinePlaceholder", module)
   .addParameters({ component: OfflinePlaceholder })
-  .addDecorator(story => <IntlProvider locale="en">{story()}</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">{story()}</IntlProvider>)
   .add("default", () => <OfflinePlaceholder />);

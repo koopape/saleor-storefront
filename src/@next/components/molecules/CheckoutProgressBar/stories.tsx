@@ -32,21 +32,21 @@ storiesOf("@components/molecules/CheckoutProgressBar", module)
   .addParameters({ component: CheckoutProgressBar })
   .add("first", () => {
     return (
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutProgressBar steps={steps} activeStep={1} />
       </IntlProvider>
     );
   })
   .add("second", () => {
     return (
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutProgressBar steps={steps} activeStep={2} />
       </IntlProvider>
     );
   })
   .add("third", () => {
     return (
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutProgressBar steps={steps} activeStep={3} />
       </IntlProvider>
     );

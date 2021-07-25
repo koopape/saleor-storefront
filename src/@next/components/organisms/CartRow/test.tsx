@@ -14,7 +14,7 @@ describe("<CartRow />", () => {
     const onRemoveMock = jest.fn();
     const onQuantityChangeMock = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartRow
           {...DEFAULT_PROPS}
           onRemove={onRemoveMock}
@@ -30,7 +30,7 @@ describe("<CartRow />", () => {
     const onRemoveMock = jest.fn();
     const onQuantityChangeMock = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartRow
           {...DEFAULT_PROPS}
           onRemove={onRemoveMock}
@@ -50,7 +50,7 @@ describe("<CartRow />", () => {
     const onRemoveMock = jest.fn();
     const onQuantityChangeMock = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartRow
           {...DEFAULT_PROPS}
           onRemove={onRemoveMock}
@@ -73,7 +73,7 @@ describe("<CartRow />", () => {
     const onRemoveMock = jest.fn();
     const onQuantityChangeMock = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartRow
           {...DEFAULT_PROPS}
           onRemove={onRemoveMock}
@@ -96,7 +96,7 @@ describe("<CartRow />", () => {
     const onRemoveMock = jest.fn();
     const onQuantityChangeMock = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartRow
           {...DEFAULT_PROPS}
           maxQuantity={3}

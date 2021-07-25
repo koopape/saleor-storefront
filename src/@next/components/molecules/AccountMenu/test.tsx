@@ -20,7 +20,7 @@ const DEFAULT_PROPS = { ...{ links, active } };
 describe("<AccountMenu />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountMenu {...DEFAULT_PROPS} />
       </IntlProvider>
     );
@@ -30,7 +30,7 @@ describe("<AccountMenu />", () => {
 
   it("should contain proper link names converted from urls", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AccountMenu {...DEFAULT_PROPS} />
       </IntlProvider>
     );

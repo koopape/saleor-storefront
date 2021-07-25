@@ -13,7 +13,7 @@ describe("<CheckoutPayment />", () => {
     const removeVoucherCode = jest.fn();
     const submitUnchangedDiscount = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutPayment
           {...PROPS}
           addPromoCode={addPromoCode}

@@ -22,7 +22,7 @@ const setBillingAsShippingAddress = action(
 storiesOf("@components/organisms/CheckoutAddress", module)
   .addParameters({ component: CheckoutAddress })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CheckoutAddress
         {...ANONYMOUS_USER_PROPS}
         shippingAddressRequired
@@ -33,7 +33,7 @@ storiesOf("@components/organisms/CheckoutAddress", module)
     </IntlProvider>
   ))
   .add("with addresses", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <CheckoutAddress
         {...LOGGED_IN_USER_PROPS}
         shippingAddressRequired

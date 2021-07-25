@@ -79,7 +79,7 @@ storiesOf("@components/molecules/OrderTable", module)
     /* eslint-disable-next-line no-extend-native */
     Number.prototype.toLocaleString = () => "";
     return (
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <OrderTable isGuest orders={ORDERS} />
       </IntlProvider>
     );

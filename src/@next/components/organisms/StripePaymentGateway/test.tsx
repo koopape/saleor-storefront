@@ -17,7 +17,7 @@ describe("<StripePaymentGateway />", () => {
     const submitPaymentSuccess = jest.fn();
     const onError = jest.fn();
     const wrapper = shallow(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <StripePaymentGateway
           config={config}
           processPayment={processPayment}

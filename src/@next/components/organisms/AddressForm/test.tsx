@@ -37,7 +37,7 @@ describe("<AddressForm />", () => {
 
   it("should contain error provided as prop", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressForm {...PROPS} {...ERRORS} />
       </IntlProvider>
     );
@@ -47,7 +47,7 @@ describe("<AddressForm />", () => {
 
   it("should contain partial data if provided", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressForm {...PROPS} {...INITIAL_DATA} />
       </IntlProvider>
     );

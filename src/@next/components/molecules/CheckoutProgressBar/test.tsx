@@ -27,7 +27,7 @@ const steps = [
 describe("<CheckoutProgressBar />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutProgressBar steps={steps} activeStep={0} />
       </IntlProvider>
     );
@@ -37,7 +37,7 @@ describe("<CheckoutProgressBar />", () => {
 
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CheckoutProgressBar steps={steps} activeStep={0} />
       </IntlProvider>
     );

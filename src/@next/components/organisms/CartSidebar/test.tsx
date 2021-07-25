@@ -33,7 +33,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={ITEMS}
           removeItem={removeItem}
@@ -62,7 +62,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={ITEMS}
           removeItem={removeItem}
@@ -99,7 +99,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={ITEMS}
           removeItem={removeItem}
@@ -135,7 +135,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={[]}
           removeItem={removeItem}
@@ -169,7 +169,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={ITEMS}
           removeItem={removeItem}
@@ -201,7 +201,7 @@ describe("<CartSidebar />", () => {
     const proceedToCheckout = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSidebar
           items={ITEMS}
           removeItem={removeItem}

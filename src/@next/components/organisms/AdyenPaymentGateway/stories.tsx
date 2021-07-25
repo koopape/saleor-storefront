@@ -39,7 +39,7 @@ const onError = action("onError");
 
 storiesOf("@components/organisms/AdyenPaymentGateway", module)
   .addParameters({ component: AdyenPaymentGateway })
-  .addDecorator(story => <IntlProvider locale="en">{story()}</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">{story()}</IntlProvider>)
   .add("default", () => (
     <AdyenPaymentGateway
       {...PROPS}

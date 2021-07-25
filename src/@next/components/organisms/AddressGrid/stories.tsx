@@ -59,7 +59,7 @@ const addresses = [DEFAULT_PROPS, addressSimple, DEFAULT_PROPS, DEFAULT_PROPS];
 storiesOf("@components/organisms/AddressGrid", module)
   .addParameters({ component: AddressGrid })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <AddressGrid
         addNewAddress={action("addNewAddress")}
         addresses={addresses}

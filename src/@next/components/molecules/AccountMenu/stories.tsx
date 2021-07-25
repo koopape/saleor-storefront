@@ -21,7 +21,7 @@ const active = paths.accountAddressBook;
 const DEFAULT_PROPS = { ...{ links, active } };
 storiesOf("@components/molecules/AccountMenu", module)
   .addParameters({ component: AccountMenu })
-  .addDecorator(story => <IntlProvider locale="en">{story()}</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">{story()}</IntlProvider>)
   .add("default", () => (
     <Wrapper>
       <AccountMenu {...DEFAULT_PROPS} />

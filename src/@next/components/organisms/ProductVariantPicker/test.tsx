@@ -27,7 +27,7 @@ const PROPS = {
 describe("<ProductVariantPicker />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductVariantPicker {...PROPS} />
       </IntlProvider>
     );
@@ -39,7 +39,7 @@ describe("<ProductVariantPicker />", () => {
     const onChangeVariantPicker = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductVariantPicker
           {...PROPS}
           selectSidebar={false}
@@ -58,7 +58,7 @@ describe("<ProductVariantPicker />", () => {
 
   it("should disable possible selection of other variant attribute values after selection of one variant attribute values", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductVariantPicker selectSidebar={false} {...PROPS} />,
       </IntlProvider>
     );
@@ -80,7 +80,7 @@ describe("<ProductVariantPicker />", () => {
     const onChangeVariantPicker = jest.fn();
 
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductVariantPicker
           {...PROPS}
           selectSidebar
@@ -100,7 +100,7 @@ describe("<ProductVariantPicker />", () => {
 
   it("should disable possible selection of other variant attribute values after selection of one variant attribute values with sidebar", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <ProductVariantPicker
           selectSidebar
           selectSidebarTarget={portalRoot}

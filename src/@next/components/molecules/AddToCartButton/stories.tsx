@@ -12,6 +12,6 @@ const DEFAULT_PROPS: IAddToCartButton = {
 
 storiesOf("@components/molecules/AddToCartButton", module)
   .addParameters({ component: AddToCartButton })
-  .addDecorator(story => <IntlProvider locale="en">story()</IntlProvider>)
+  .addDecorator(story => <IntlProvider locale="es">story()</IntlProvider>)
   .add("default", () => <AddToCartButton {...DEFAULT_PROPS} />)
   .add("disabled", () => <AddToCartButton {...DEFAULT_PROPS} disabled />);

@@ -7,7 +7,7 @@ import { DiscountForm } from ".";
 storiesOf("@components/organisms/DiscountForm", module)
   .addParameters({ component: DiscountForm })
   .add("default", () => (
-    <IntlProvider locale="en">
+    <IntlProvider locale="es">
       <DiscountForm />
     </IntlProvider>
   ));

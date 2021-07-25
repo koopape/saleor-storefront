@@ -41,7 +41,7 @@ describe("<CartSummaryRow />", () => {
 
   it("should display product quantity", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummaryRow {...DEFAULT_PROPS} />
       </IntlProvider>
     );

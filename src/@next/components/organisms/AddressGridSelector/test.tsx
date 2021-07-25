@@ -10,7 +10,7 @@ import { DEFAULT_PROPS } from "./fixtures";
 describe("<AddressGridSelector />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressGridSelector {...DEFAULT_PROPS} onSelect={jest.fn()} />
       </IntlProvider>
     );
@@ -21,7 +21,7 @@ describe("<AddressGridSelector />", () => {
   it("simulates select and submit events", done => {
     const onSelect = jest.fn();
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <AddressGridSelector {...DEFAULT_PROPS} onSelect={onSelect} />
       </IntlProvider>
     );

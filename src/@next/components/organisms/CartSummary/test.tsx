@@ -23,7 +23,7 @@ const money = {
 describe("<CartSummary />", () => {
   it("exists", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary />
       </IntlProvider>
     );
@@ -33,7 +33,7 @@ describe("<CartSummary />", () => {
 
   it("should show subtotal price", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary subtotal={money} />
       </IntlProvider>
     );
@@ -43,7 +43,7 @@ describe("<CartSummary />", () => {
 
   it("should show promo price", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary promoCode={money} />
       </IntlProvider>
     );
@@ -53,7 +53,7 @@ describe("<CartSummary />", () => {
 
   it("should show shipping price", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary shipping={money} />
       </IntlProvider>
     );
@@ -63,7 +63,7 @@ describe("<CartSummary />", () => {
 
   it("should show total price", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary total={money} />
       </IntlProvider>
     );
@@ -73,7 +73,7 @@ describe("<CartSummary />", () => {
 
   it("should show correct number of product rows", () => {
     const wrapper = mount(
-      <IntlProvider locale="en">
+      <IntlProvider locale="es">
         <CartSummary {...DEFAULT_PROPS} />
       </IntlProvider>
     );
