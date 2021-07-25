@@ -3,8 +3,7 @@ import { IntlProvider } from "react-intl";
 
 import { getKeyValueJson, Locale, LocaleMessages } from "./utils";
 
-//const DEFAULT_LOCALE = Locale.EN;
-const DEFAULT_LOCALE = Locale.ES;
+const DEFAULT_LOCALE = Locale.EN;
 
 interface LocaleProviderProps {
   messages: LocaleMessages;
