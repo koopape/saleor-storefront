@@ -75,9 +75,7 @@
     "workbox-precaching": "^6.0.2",
     "workbox-routing": "^6.0.2",
     "workbox-strategies": "^6.0.2",
-    "yup": "^0.28.0"
-  },
-  "devDependencies": {
+    "yup": "^0.28.0",
     "@hot-loader/react-dom": "^16.9.0",
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.20",
@@ -171,6 +169,9 @@
     "webpack": "^4.46.0",
     "webpack-bundle-analyzer": "^4.4.0",
     "workbox-webpack-plugin": "^6.0.2"
+  },
+  "devDependencies": {
+    
   },
   "engines": {
     "node": ">=12 <15"
