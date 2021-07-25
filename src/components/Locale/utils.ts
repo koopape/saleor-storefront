@@ -103,7 +103,7 @@ const localeData: Record<Locale, string | undefined> = {
 };
 
 export const loadMessagesJson = async (
-  locale: Locale | undefined = Locale.EN
+  locale: Locale | undefined = Locale.ES
 ) => {
   const filename = localeData[locale];
   let localeJson = LOCALE_CACHE[locale];
